@@ -1,0 +1,141 @@
+
+
+Quiz entretien
+
+Quiz: Java - Quiz eco-system
+Votre score : 2 / 16
+
+    1. Maven et ses plugins permettent
+        de déployer une application sur un serveur WEB ou d'application
+        d'identifier de manière unique un JAR
+        de compiler/tester/packager des JAR/WAR/EAR/ZIP
+        de lister les dépendances d'un JAR
+        de sauvegarder dans un dépot les artéfacts créés
+
+        Perdu En fait, Maven permet de faire énormément de choses dont celles citées. (désolé pour le piège)
+    2. Quels sont les bénéfices et fonctionalités apportés par un Repository Manager ?
+        Améliorer la stabilité et les performances des builds en minimisant les dépendances aux repository externes
+        Créer un stockage centralisé et contrôler les artefacts consommés et fournis
+        Automatiser le déploiement d'artefacts sur une infrastructure
+        Gèrer la constuction automatique d'artefact depuis le code source
+        Fournir une plateforme pour échanger des artefacts sans qu'il soit nécessaire de recréer l'artefact à partir de la source
+
+        Perdu
+    3. Que signifie TDD ?
+        Time Division Duplex
+        Test Driven Development
+        Time Driven Development
+
+        Perdu 
+    4. Quel est le bon résumé de la pratique TDD ?
+        Coder entièrement les tests unitaires puis coder l'ensemble de l'application
+        Coder entièrement l'application puis coder l'ensemble des tests unitaires
+        Coder un petit bout de tests unitaires puis coder le petit bout d'application correspondant
+        Coder un petit bout d'application puis coder le petit bout de tests unitaires correspondant
+
+        Bien joué ! 
+    5. A quoi sert un test unitaire codé ?
+        Vérifier que le résultat de l'exécution d'un composant est bien celui attendu
+        Ne plus faire de tests de qualification/recette interne
+        Donner des exemples d'utilisation d'un composant
+        Documenter un composant sur son utilisation et les résultats escomptés en fonction de certains paramètres d'entrée
+
+        Perdu Je crois que la qualification est encore nécessaire. Au minimum pour vérifier que les composants testés unitairement fonctionne bien quand ils communiquent entre eux (pour celà, il faut des tests d'intégration ou des tests applicatifs)
+    6. Que doivent tester les tests unitaires ?
+        Tous les cas alternatifs
+        Toutes les combinaisons de données possibles
+        Tous les cas nominaux
+        Le test unitaire codé doit tester un maximum de cas mais dans les contraintes/règles édités par le projet
+        Tous les cas d'exception
+
+        Bien joué ! 
+    7. Spring offre des fonctionnalités pour :
+        faire de l'inversion de controle
+        faire du retour de controle
+        faire de la programmation orientée aspect
+        faire de l'injection de dépendances avec les annotations @Autowired et @Inject
+        faire de la programmation basée sur la signature des méthodes
+
+        Perdu @Inject est l'équivalent de @Autowired depuis le JEE6
+    8. Quel framework Spring existe ?
+        SpringBoot
+        SpringBatch
+        SpringMVC
+        SpringBreak
+        SpringSteen
+
+        Perdu
+    9. Quelle est la signification de ORM quand il est lié à Hibernate ?
+        Object Rational Mapping
+        Observatoire Régional des Métiers
+        Object Role Modeling
+        Object Relationnal Mapping
+        Object Rational Modeling
+        Online Reputation Management
+
+        Euh... Mapping Objet Relationnel en anglais : Object Relationnal Mapping
+    10. Quelle est la signification de JPA ?
+        Just Perfect Application
+        Java Permanent Application
+        Java Persistence API
+        Jeunesse au Plein Air
+        Java Persistence Application
+
+        Perdu Hibernate est un framework de persistance qui implémente JPA qui est l'API de persistance Java (Java Persistence API)
+    11. Quels sont, dans cette liste, les types d'objets manipulés dans une base de données relationnelle ?
+        clef composite
+        clef étrangère
+        clef publique
+        colonne
+        chaise
+        clef primaire
+        clef naturelle
+        table
+        index
+
+        Que peut bien gérer une bdd ? des tables, des colonnes, des clefs primaires, étrangères, composites et des index
+    12. Quels sont les liens entre Hibernate et JPA ?
+        JPA est un composant interne d'Hibernate
+        Hibernate propose son API et JPA une autre
+        JPA et Hibernate sont des frameworks complets pour l'ORM
+        JPA peut être utilisé avec un autre framework qu'Hibernate
+
+        Perdu JPA n'est qu'une API pas un moteur ORM ! JPA est utilisable avec Hibernate, EclipseLink, OpenJPA ou TopLink.
+    13. Continuous Integration VS Continuous Delivery
+        L'intégration continue permet d'automatiser la construction des artefacts dès que le source code est modifié et d'avoir toujours la dernière version à jour
+        Selon le Twelve-Factor, l'intégration continue et le continuous delivery doivent être strictement séparés
+        Le continuous Delivery permet d'installer automatiquement la dernière version du logiciel disponible sur une infrastructure
+        Selon le Twelve-Factor, le continuous delivery peut être utilisé pour déployer un artefact sans passer par l'intégration continue
+
+        Perdu
+    14. Quels IDE permettent de compiler du code Java ?
+        IntelliJ
+        NetBeans
+        Java Mission Control
+        Gradle
+        JCMD
+        Eclipse
+        Jenkins
+        Ant
+
+        Perdu
+    15. Gestion mémoire par Java, lesquelles de ces assertions sont vraies ?
+        La mémoire utilisée par un programme Java peut être étendue indéfiniment
+        CMS est un des algorithmes de garbage collection disponible
+        L'allocation mémoire peut être gérée manuellement si besoin
+        Il ne peut pas y avoir de fuite mémoire dans un programme Java
+        L'allocation mémoire est gérée automatiquement par Java
+        Graal est un des algorithmes de garbage collection disponible
+        G1 est un des algorithmes de garbage collection disponible
+
+        Perdu Vous n'avez pas une très bonne mémoire.
+    16. Quelles commandes permettent de prendre un thread-dump d'un processus Java en cours d'exécution ?
+        kill -9
+        jtrump
+        kill -s SIGQUIT
+        jstack
+        jcmd GC.heap_dump
+        jcmd Thread.print
+
+        Perdu Donald Trump ne sait pas prendre un thread-dump d'un processus Java en cours d'exécution.
+
