@@ -1,0 +1,100 @@
+
+
+Quiz entretien
+
+Quiz: JavaScript - Part 1
+Votre score : 1 / 13
+
+    1. JavaScript est un langage
+        Uniquement interprété
+        Uniquement compilé
+        Compilé et interprété
+        Ni compilé, ni interprété
+
+        Perdu 
+    2. Comment mettre la chaîne de charactères myString en minuscule
+        myString.toLowerCase()
+        myString.transform('LOWER')
+        myString.min()
+        myString.lowerCase()
+
+        Perdu 
+    3. Quelle méthode d'un Array n'existe pas
+        reduce
+        some
+        filter
+        allMatch
+        reverse
+
+        Perdu 
+    4. Comment sortir d'une boucle for / while ?
+        leave
+        break
+        end
+        continue
+
+        Perdu 
+    5. Que renvoie la fonction users.map(myFunction) sachant que users est un tableau ?
+        Le tableau users
+        myFunction
+        Le tableau users avec des éléments modifiés
+        La chaîne de caractère 'users'
+        Un nouveau tableau avec des éléments modifiés
+
+        PerduPerdu
+    6. const toto = {name: 'Jean'}; const titi = toto; titi.name = 'Bon'; console.log(toto.name, titi.name);
+        JeanBon
+        Jean Jean
+        Une erreur
+        JeanJean
+        Bon Bon
+        Bon Jean
+
+        C'est pas bon bon 
+    7. {} === {}
+        false
+        true
+
+        Bien joué ! 
+    8. Comment vider le tableau customers
+        customer.splice(0, customer.length)
+        customers.length = 0;
+        customers.clean();
+        customers.popAll()
+
+        Perdu 
+    9. Le code suivant est-il valide: const object = { property: 'prop' }; const { property: props } = object;
+        Oui
+        Non
+
+        Perdu
+    10. Quel est le resultat du code suivant : var name = `je suis ${y}`, y = `pas ${x}`;
+        Je suis pas undefined
+        Je suis pas null
+        Je suis undefined
+        Une erreur
+        Je suis pas Je suis pas Je suis pas ...
+
+        Perdu Bien joué !
+    11. Comment appelle-t-on le fait de passer d'un fichier typeScript à un fichier JS ?
+        Compiler
+        Transpirer
+        Interpreter
+        Transpiler
+
+        PerduTranspiler : traduire du code d’un langage à un autre
+    12. Quelles sont les différences entre une arrow function et une fonction classique
+        L'objet `arguments` n'est pas disponible
+        Le context du `this`
+        Ne peuvent par être utilisées comme constructeur
+        Une arrow fonction fait un appel au garbage collector à la fin du Runtime
+
+        Perdu 
+    13. Qu'est-ce qu'un Set ?
+        Protège une table SQL
+        Permet de stocker des valeurs uniques
+        Représente un dictionnaire
+        La nouvelle API d'Array
+
+        Perdu 
+
