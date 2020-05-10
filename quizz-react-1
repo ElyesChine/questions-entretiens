@@ -1,0 +1,112 @@
+
+
+Quiz entretien
+
+Quiz: React - Part 1
+Votre score : 3 / 16
+
+    1. What is React:
+        Server-side framework
+        User-interface framework
+        A library for building interaction interfaces
+
+        Perdu 
+    2. Who created React?
+        Facebook
+        Google
+        Evan you
+        Linus Torvalds, the creator of Git
+
+        Perdu 
+    3. Everything is React is a:
+        Package
+        Component
+        Module
+        class
+
+        Bien joué ! 
+    4. What file extention is used with React ?
+        .react
+        .jsx
+        .tsx
+        .js
+
+        Perdu 
+    5. Does React manipulate directly the DOM ?
+        Yes
+        No
+
+        Perdu 
+    6. Sélectionner ce qui permet à React d'être plus rapide qu'Angular pour manipuler le DOM:
+        React est développé par Facebook
+        Dom Virtuel
+        Il rafraichit seulement le DOM impacté par n'importe quel changement
+        Il rafraichit seulement le DOM impacté par n'importe quel changement dans un state
+
+        Perdu 
+    7. What are the two ways that data gets handled in React ?
+        services & components
+        state & props
+
+        Bien joué ! 
+    8. In react how do we pass data to a component from outside
+        render with arguments
+        setState
+        props
+        PropTypes
+
+        Perdu 
+    9. Select line(s) to use for each React file:
+        import React from 'react';
+        import React, {Component} from 'react';
+        import 'react'
+
+        Perdu 
+    10. How do we create a React component ?
+        class myComponent extends Component {}
+        const myComponent = () => {}
+        class myComponent implements Component {}
+
+        Perdu 
+    11. How do we declare a React state in a component:
+        const [count, setCount] = useState(0);
+        state = { count: 0 }
+        setState({count: 0})
+        state.count = 0
+
+        Perdu 
+    12. Which statements are true about functionnal components
+        It's easier to read and test
+        It works better than class components with Redux
+        functionnal components are stateless
+        We can't use the lifecycle events
+
+        Perdu 
+    13. What is React Admin ?
+        A library for building an admin application
+        A CSS library
+        A website to administrate client's data
+
+        Perdu 
+    14. Which statements are true about Redux:
+        Predictable state updates
+        Centralizing the state
+        Redux can be used with AngularJS
+        Replaces local state in components
+
+        Perdu 
+    15. The following code is an action or an action creator: `{ type: 'EDIT_TOTO', id: 42 }`
+        An action creator
+        None of the above
+        An action
+
+        Bien joué ! 
+    16. Which statements are true about the `mapStateToProps` function:
+        It should be passed as second argument to `connect`
+        It takes the state as first argument
+        It can take the props of the component as second argument
+        It can get data from the redux store to a component
+        It is called every time the redux store state changes
+
+        Perdu 
+
