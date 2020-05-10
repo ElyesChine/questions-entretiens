@@ -1,0 +1,262 @@
+
+
+Quiz entretien
+
+Quiz: Java - Part 1
+Votre score : 7 / 30
+
+    1. Java est un langage
+        uniquement compilé
+        uniquement interprété
+        compilé et interprété
+        ni compilé, ni interprété
+
+        Perdu 
+    2. Java est un langage initialement développé par
+        Oracle
+        Hewlett-Packard
+        Sun Microsystems
+        Microsoft
+
+        Perdu Sun est l'éditeur historique de Java puis Sun Microsystems a été racheté par Oracle.
+    3. Sélectionner la(es) vérité(s)
+        Une classe peut étendre une classe
+        Une classe peut implémenter plusieurs interfaces
+        Une classe peut implémenter une interface
+        Une classe peut implémenter plusieurs classes
+        Une classe peut étendre plusieurs classes
+        Une classe peut étendre plusieurs interfaces
+        Une classe peut étendre une seule interface
+
+        Perdu Une classe peut en étendre une autre (et une seule) et peut implémenter plusieurs interfaces
+    4. Sélectionner la(es) vérité(s)
+        Une interface peut étendre une interface
+        Une interface peut implémenter une interface
+        Une interface peut étendre plusieurs interfaces
+        Une interface peut étendre une classe
+
+        Perdu Une interface décrit des signatures de méthodes. Donc elle n'implémente rien mais elle peut étendre une autre interface.
+    5. Une interface peut contenir :
+        des constantes publiques
+        des méthodes publiques
+        des constantes privées
+        des méthodes statiques
+        des méthodes privées
+        des implémentations par défaut
+
+        Perdu Une interface définit la liste des méthodes exposées par un composant. Donc des méthodes publiques et des constantes publiques
+    6. Soit la classe B qui hérite de A (B extends A), sélectionner la(es) ligne(s) valide(s)
+        A monObjet = new B();
+        A monObjet = new A();
+        B monObjet = new A();
+        A a = new A(); B b = a;
+        B b = new B(); A a = b;
+
+        Perdu 
+    7. Quels sont les caractères pour définir des commentaires dans le code
+        # mon commentaire
+        // mon commentaire
+        -- mon commentaire
+        // mon commentaire multiligne
+        /* mon commentaire multiligne */
+        /* mon commentaire monoligne */
+        /** mon commentaire multiligne */
+
+        Perdu 
+    8. Quels sont les mots-clefs de Java ?
+        private
+        public
+        protected
+        interface
+        transient
+        implements
+        static
+        throws
+        final
+        class
+        new
+        abstract
+        select
+        throw
+        delete
+        extends
+        now
+        update
+        unsigned
+        const
+
+        Perdu 
+    9. Quels sont les mots-clefs de Java ?
+        do
+        for
+        void
+        instanceof
+        while
+        if
+        else
+        break
+        continue
+        foreach
+        elif
+        elseif
+        then
+
+        Perdu 
+    10. Quelles sont les lignes valides ?
+        int i = 0;
+        float f = 0;
+        short s = 0;
+        int i = 1_000;
+        float f = 0F;
+        double d = 0;
+        short s = 0S;
+        double d = 35.4;
+        float f = 35.4;
+        float f = 35.4f;
+        double d = 35.4D;
+
+        Perdu Par défaut, un nombre à décimal est un DOUBLE. Le caractère F est nécessaire pour créer un float. Le caractère D est optionnel.
+    11. Le caractère \n est un caractère valide
+        oui
+        non
+
+        Bien joué !
+    12. Comment déclarer une constante publique dans une classe ?
+        public static final String MA_CONSTANTE = "MA_VALEUR"
+        private const String MA_CONSTANTE = "MA_VALEUR"
+        public static String MA_CONSTANTE = "MA_VALEUR"
+        public static String MA_CONSTANTE == "MA_VALEUR"
+        public final String MA_CONSTANTE = "MA_VALEUR"
+
+        Perdu 
+    13. Que signifie le mot clef static
+        que l'attribut n'est pas modifiable
+        que l'attribut ne sera pas pris en compte dans la serialization
+        que l'attribut est visible de toutes les classes du package
+        que l'attribut est un attribut de classe et non d'objet
+
+        Perdu 
+    14. Que signifie le mot clef final
+        que l'attribut n'est pas modifiable
+        que l'attribut ne sera pas pris en compte dans la serialization
+        que l'attribut est visible de toutes les classes du package
+        que l'attribut est un attribut de classe et non d'objet
+
+        Perdu 
+    15. Que signifie le mot clef protected
+        que l'attribut ne sera pas pris en compte dans la serialization
+        que l'attribut est visible de toutes les classes du package
+        que l'attribut n'est pas modifiable
+        que l'attribut est un attribut de classe et non d'objet
+
+        Bien joué ! 
+    16. Qu'implique un attribut déclaré sans aucune visibilité (ni protected, ni public, ni private)
+        que l'attribut est un attribut de classe et non d'objet
+        que l'attribut n'est pas modifiable
+        que l'attribut est visible de toutes les classes du package
+        que l'attribut ne sera pas pris en compte dans la serialization
+
+        Bien joué ! 
+    17. Que signifie le mot clef transient
+        que l'attribut n'est pas modifiable
+        que l'attribut est visible de toutes les classes du package
+        que l'attribut est un attribut de classe et non d'objet
+        que l'attribut ne sera pas pris en compte dans la serialization
+
+        Perdu 
+    18. Quelle(s) est(sont) la(es) particularité(s) d'une collection de type List
+        La collection est toujours triée
+        La collection lance une exception à l'ajout d'un doublon
+        La collection permet de récupérer un élément par sa position
+        La collection supprime les doublons et ne conserve qu'une instance
+        La collection accepte les doublons
+        La collection permet de récupérer une valeur à partir d'une clef
+
+        Perdu 
+    19. Quelle(s) est(sont) la(es) particularité(s) d'une collection de type Set
+        La collection lance une exception à l'ajout d'un doublon
+        La collection accepte les doublons
+        La collection permet de récupérer un élément par sa position
+        La collection est toujours triée
+        La collection supprime les doublons et ne conserve qu'une instance
+        La collection permet de récupérer une valeur à partir d'une clef
+
+        Perdu 
+    20. Quelle(s) est(sont) la(es) particularité(s) d'une Map
+        La collection est toujours triée
+        La collection accepte les doublons
+        La collection lance une exception à l'ajout d'un doublon
+        La collection supprime les doublons et ne conserve qu'une instance par clef
+        La collection permet de récupérer un élément par sa position
+        La collection permet de récupérer une valeur à partir d'une clef
+
+        Perdu 
+    21. Exposer les attributs d'une classe en public est une bonne pratique ?
+        oui
+        non
+
+        Bien joué ! 
+    22. Au nom de quel principe cache-t-on le contenu d'un composant et n'expose-t-on que le minimum aux autres composants du système ?
+        cohérence
+        couplage
+        confusion
+        Thalès
+        encapsulation
+        modularité
+        Pythagore
+
+        Perdu 
+    23. Sélectionner la(es) vérité(s) selon la norme Java standard
+        Un nom de classe commence par une majuscule
+        Un nom de constante se compose de majuscules séparées par des '_'
+        Un nom d'attribut commence par une majuscule
+        Un nom d'attribut peut contenir un chiffre
+        Un nom d'attribut peut commencer par un chiffre
+        Un nom de classe utilise '_' pour séparer les mots
+
+        Perdu 
+    24. Sélectionner la(es) vérité(s) sur les constructeurs
+        Un constructeur peut être privé
+        Une classe doit obligatoirement contenir un constructeur codé
+        Un constructeur peut appeler un autre constructeur de la même classe
+        Un constructeur doit avoir des paramètres
+        Un constructeur peut appeler un autre constructeur de la classe parente
+
+        Perdu 
+    25. Une classe peut contenir ...
+        ... deux méthodes de même nom avec le même nombre de paramètres mais de types différents
+        ... deux méthodes de même nom avec un nombre différents de paramètres
+        ... deux méthodes de même nom sans paramètres
+        ... deux méthodes de même nom sans paramètres retournant un objet de type différent
+        ... deux méthodes de même nom avec les mêmes paramètres mais une privée et l'autre publique
+
+        Perdu La signature comprend le nom de la méthode plus le type et l'ordre des paramètres. Deux signatures identiques n'est pas possible dans une même classe
+    26. Une classe peut contenir une méthode ayant la même signature qu'une des méthodes de la classe dont elle hérite ?
+        oui
+        non
+
+        Bien joué ! 
+    27. Java permet de faire du polymorphisme avec des interfaces
+        oui
+        non
+
+        Bien joué ! 
+    28. Quelles sont les classes héritant de java.lang.Exception ?
+        Throwable
+        Error
+        NullPointerException
+        RuntimeException
+
+        Perdu NullPointerException hérite de RuntimeException qui hérite de Exception qui lui même hérite de Throwable. Error hérite de Throwable
+    29. Par défault, de quelle classe hértite une classe Java ?
+        Object
+        com.java.lang.Java
+        Aucune
+
+        Perdu Par défaut, outes les classes héritent de Object
+    30. Lesquelles de ces opérations sont toujours vraies
+        new String("toto") == new String("toto")
+        (new String("toto")).equals(new String("toto"))
+
+        Bien joué ! 
+
