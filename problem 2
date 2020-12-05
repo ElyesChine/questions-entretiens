@@ -1,8 +1,8 @@
 input : string sentence , int n
 output : two strings right , left
 processing :
-find the word most to the left repeated at least n times (right)
-find the word most to the right repeate at least n times (left)
+find the word most to the left repeated at least n times (left)
+find the word most to the right repeate at least n times (right)
 if there is only one word repeated at least n times , return right=the word  left = ""
 example :
   input : "car x car car for for for x x " , 3
