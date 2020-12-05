@@ -1,0 +1,8 @@
+input : string sentence , string suffix
+output : string output
+processing :
+senetence is many words seperated by ' '
+for each word apply the following :
+  if first letter is vowey , invert the word and add suffix at the end
+  else  invert the word , if the first letter is not a vowel  ,put the first letter at the end of the word , add the suffix to the end
+  return the new string
